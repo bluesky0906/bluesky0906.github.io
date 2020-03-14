@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+    padding: 0;
+	  font-family:"Noto Sans Japanese", "游ゴシック", YuGothic, "メイリオ", Meiryo,
+    sans-serif;
+    background-color: white;
+
+    animation: fadeIn 2s ease 0s 1 normal;
+    -webkit-animation: fadeIn 2s ease 0s 1 normal;
+}
+body a {
+  color: #88CCC4;
+}
+
+/*共通*/
+#wrapper{
+	max-width:100%;
+  text-align: center;
+	margin:0 auto;
+}
+
+header{
+	width:100%;
+	height: 100px;
+	margin-top: 0;
+  border-bottom: 1px solid #ddd;
+	background-color:white;
+
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 3;
+}
+header h1{
+  margin-top:30px;
+	font-size:25px;
+  font-weight: 900;
+  letter-spacing: 0.1px;
+}
+
+nav{
+  z-index: 2;
+  position: fixed;
+	width:100%;
+	height:60px;
+  padding-top: 100px;
+  background-color:white;
+
+}
+nav ul{
+
+  padding: 0;
+
+  display: flex;
+	list-style:none;
+}
+nav ul li{
+  width: 50%;
+  text-align: center;
+  background-color: white;
+  height: 60px;
+  line-height: 50px;
+
+}
+nav ul li a{
+  text-decoration:none;
+	color:black;
+				font-weight: 500;
+				line-height: 1.4;
+				letter-spacing: .05em;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+
+}
+nav ul li a:hover{
+	color: #88CCC4;
+}
+
+main {
+  padding-top: 175px;
+  margin: 0 auto;
+  color:black;
+  background-color: transration;
+}
+section:nth-child(even) {
+  background-color: #F4f4f4;
+}
+section {
+  padding: 5% 15%;
+  text-align: left;
+  margin: 0;     
+}
+section h1 {
+  line-height: 0.5;
+  text-align: left;
+}
+section hr {
+  margin-left: 0px;
+  height: 1px;
+  border: none;
+  border-top: 1px #88CCC4 solid;
+}
+section h2 {
+  line-height: 1.0;
+  font-size: 20px;
+  font-weight: 900;
+}
+section  p {
+	line-height: 1.5;
+  font-size: 20px;
+  font-weight: 100;
+}
+article {
+  padding-top: 3%;
+  padding-left: 20px;
+}
+
+
+/*ヘッダー内リンク*/
+.icon img{
+  position: absolute;
+  width: 45px;
+}
+#Twitter img{
+  right: 20px;
+  top: 35px;
+}
+#GitHub img{
+  right: 80px;
+  top: 30px;
+}
+.off {
+  transition: .8s
+}
+.off:hover{
+  opacity: 0;
+}
+
+
+/*Home*/
+#About_me{
+  text-align: left;
+  width: 100%;
+}
+#About_me > *{
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 30px;
+}
+
+#About_me img{
+  margin-top: 50px;
+  margin-right: auto;
+  width: 150px;
+}
+
+/*Project*/
+.inst img{
+  width:200px;
+  margin-top:20px 50px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+  transition:1s;
+}
+.inst img:hover{
+  filter:drop-shadow( 0px 10px 10px rgba(136, 204, 196, 0.4));
+  transform: rotate(-30deg);
+  transform-origin: center;
+}
+.inst tr td {
+  text-align: center;
+}
+
+
+
