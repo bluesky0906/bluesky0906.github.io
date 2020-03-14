@@ -1,8 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-	  font-family:"Noto Sans Japanese", "游ゴシック", YuGothic, "メイリオ", Meiryo,
-    sans-serif;
+	  font-family: mr-eaves-sans, sans-serif;
     background-color: white;
 
     animation: fadeIn 2s ease 0s 1 normal;
@@ -36,7 +35,7 @@ header{
 header h1{
   margin-top:30px;
 	font-size:25px;
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 0.1px;
 }
 
@@ -107,12 +106,12 @@ section hr {
 section h2 {
   line-height: 1.0;
   font-size: 20px;
-  font-weight: 900;
+  font-weight: 600;
 }
 section  p {
 	line-height: 1.5;
   font-size: 20px;
-  font-weight: 100;
+  font-weight: 200;
 }
 article {
   padding-top: 3%;
